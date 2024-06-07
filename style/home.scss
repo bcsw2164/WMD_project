@@ -8,7 +8,16 @@ body {
   line-height: 1.5;
 }
 
-/* ol, li 기본 속성 제거 */
+// 폰트관련
+.font-ko {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.font-en {
+  font-family: Montserrat, sans-serif;
+}
+
+/* ol, li, a 태그기본 속성 제거 */
 ol {
   padding: 0;
   margin: 0;
@@ -16,6 +25,11 @@ ol {
 
 li {
   list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
 }
 
 .wrap {
@@ -31,7 +45,7 @@ li {
 
 .nav {
   max-width: 60rem;
-  padding-block: 3rem;
+  padding-block: 2rem;
   margin-inline: auto;
 
   .nav_bar {
@@ -41,19 +55,31 @@ li {
 
     // border스타일
     border: solid 1px black;
-    border-radius: 10px;
+    border-radius: 20px;
 
     .nav_bar-list {
       padding-block: 0.5rem;
-      padding-inline: 2rem;
+      padding-inline: 2.25rem;
     }
   }
 }
 
 .container {
-  /* background-color: burlywood; */
+  background-color: burlywood;
 }
 
 .footer {
-  /* background-color: darkgrey; */
+  background-color: darkgrey;
+
+  .copyright {
+    padding-block: 5rem;
+
+    // 텍스트 관련
+    font-size: 12px;
+    text-align: center;
+
+    p {
+      margin: 0;
+    }
+  }
 }
