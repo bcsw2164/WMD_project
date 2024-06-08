@@ -1,0 +1,81 @@
+p {
+  margin: 0;
+}
+
+.content-1 {
+  background-color: antiquewhite;
+}
+.content-2 {
+  background-color: azure;
+}
+
+.content-about {
+  max-width: 60rem;
+  padding-block: 20rem;
+  margin-inline: auto;
+}
+
+.flex-about {
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+}
+.flex-btn {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.about-name {
+  padding-bottom: 1rem;
+}
+.about-name--ko {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.about-name--en {
+  font-size: 2rem;
+}
+.about-birth {
+  padding-bottom: 1.5rem;
+  font-size: 2rem;
+}
+.about-btn {
+  padding-block: 0.5rem;
+  padding-inline: 12px;
+  font-size: 1.5rem;
+  border: 1px solid black;
+  border-radius: 12px;
+}
+
+.content-exp {
+  max-width: 100rem;
+  padding-block: 5rem;
+  padding-inline: 5rem;
+  margin-inline: auto;
+}
+
+.exp-title {
+  padding-bottom: 2.5rem;
+  font-size: 5rem;
+  font-weight: 700;
+}
+.exp-list--section {
+  display: flex;
+  gap: 4rem;
+  padding-bottom: 8rem;
+}
+
+.section-date {
+  font-size: 1.5rem;
+}
+.title {
+  padding-bottom: 0.75rem;
+  margin-top: -1.25rem;
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.sub {
+  padding-left: 0.625rem;
+  font-size: 24px;
+}

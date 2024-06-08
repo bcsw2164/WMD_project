@@ -1,0 +1,60 @@
+p {
+  margin: 0;
+}
+
+.content-1 {
+  // 여기에 배경색 들어감
+  background-color: aquamarine;
+}
+
+.content-main {
+  max-width: 75rem;
+  padding-inline: 5rem;
+  padding-top: 5rem;
+  padding-bottom: 6rem;
+  margin-inline: auto;
+}
+
+.main {
+  &-title {
+    padding-bottom: 5rem;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  &-pf {
+    display: block;
+    width: 100%;
+    margin-inline: auto;
+  }
+
+  &-desc {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8px;
+    font-size: 1.125rem;
+    font-weight: 400;
+  }
+}
+
+#zb1 {
+  aspect-ratio: 560/315;
+}
+
+.content-2 {
+  // 여기에 배경색 들어감
+}
+
+.content-paging {
+  display: flex;
+  justify-content: space-between;
+}
+
+.prev-page {
+  display: flex;
+}
+
+.next-page {
+  display: flex;
+}
