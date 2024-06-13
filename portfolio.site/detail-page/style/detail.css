@@ -70,23 +70,29 @@ img {
 
 .content-paging {
   display: flex;
-  justify-content: space-between;
   max-width: 75rem;
   padding-block: 2rem 4rem;
   padding-inline: 2rem;
   margin-inline: auto;
-  font-size: 2rem;
+  font-size: 1.75rem;
 }
 
 .prev-page {
   display: flex;
+  flex: 1;
   align-items: center;
+  justify-content: flex-start;
+  min-width: 0;
 }
 
 .next-page {
   display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: flex-end;
+  min-width: 0;
 }
 
 .icon {
-  max-width: 6rem;
+  max-width: 5rem;
 }
