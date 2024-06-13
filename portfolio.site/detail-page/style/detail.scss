@@ -4,7 +4,7 @@ p {
 
 .content-1 {
   // 여기에 배경색 들어감
-  background-color: aquamarine;
+  // background-color: aquamarine;
 }
 
 .content-main {
@@ -27,6 +27,14 @@ p {
     display: block;
     width: 100%;
     margin-inline: auto;
+
+    &-flex {
+      box-sizing: border-box;
+      display: flex;
+      flex-shrink: 1;
+      max-width: 100%;
+      height: auto;
+    }
   }
 
   &-desc {
@@ -38,7 +46,28 @@ p {
   }
 }
 
+// 영상사이즈
 #zb1 {
+  aspect-ratio: 560/315;
+}
+
+#mbc {
+  aspect-ratio: 560/315;
+}
+
+#bookmotion {
+  aspect-ratio: 560/315;
+}
+
+#beauty-inside {
+  aspect-ratio: 560/315;
+}
+
+#kinetictypo {
+  aspect-ratio: 560/315;
+}
+
+#elsword {
   aspect-ratio: 560/315;
 }
 
@@ -49,6 +78,11 @@ p {
 .content-paging {
   display: flex;
   justify-content: space-between;
+  max-width: 75rem;
+  padding-block: 2rem 4rem;
+  padding-inline: 2rem;
+  margin-inline: auto;
+  font-size: 2rem;
 }
 
 .prev-page {
