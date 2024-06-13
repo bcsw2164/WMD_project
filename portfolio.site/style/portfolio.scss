@@ -11,7 +11,7 @@
   margin-inline: auto;
 
   &-bg-1 {
-    background-color: antiquewhite;
+    // background-color: antiquewhite;
   }
 
   &-bg-2 {
@@ -33,17 +33,27 @@
 
 .grid_motion-card {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+
+  // grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
   grid-auto-rows: auto;
-  grid-gap: 3.25rem;
+  grid-gap: 1.25rem;
 }
 
 .motion-card {
   &-image {
-    aspect-ratio: 16 / 9;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+    object-fit: scale-down;
     background-color: black;
     border-radius: 0.75rem;
   }
+}
+
+img {
+  display: block;
+  max-width: 100%;
 }
 
 // 타이포그래피
