@@ -1,25 +1,33 @@
+.wrap {
+  background-color: #121115;
+}
+
+.portfolio-header {
+  color: #e2b8e0;
+  border-color: #e2b8e0;
+}
+
+.portfolio-footer {
+  color: #e2b8e0;
+}
+
 .content {
-  max-width: 100rem;
+  max-width: 90rem;
   padding-inline: 5rem;
   padding-top: 8rem;
   padding-bottom: 8rem;
   margin-inline: auto;
 }
-.content-bg-2 {
-  background-color: azure;
-}
-.content-bg-3 {
-  background-color: antiquewhite;
-}
 .content .title {
   padding-bottom: 2.5rem;
   font-size: 5rem;
   font-weight: 800;
+  color: #e2b8e0;
 }
 
 .grid_motion-card {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
   grid-auto-rows: auto;
   grid-gap: 1.25rem;
 }
@@ -41,26 +49,26 @@ img {
 
 .grid_typo-card {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
   grid-auto-rows: auto;
-  grid-gap: 4rem;
+  grid-gap: 6rem;
 }
 
 .typo-card-image {
-  aspect-ratio: 2/3;
   background-color: black;
 }
 
 .grid_graphic-card {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
   grid-auto-rows: auto;
-  grid-gap: 4rem;
+  grid-gap: 6rem;
 }
 
 .graphic-card-image {
   aspect-ratio: 1/1;
-  background-color: black;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .txt {
