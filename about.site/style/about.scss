@@ -3,13 +3,17 @@ p {
   margin: 0;
 }
 
+.header {
+  background-color: #f6f5f0;
+}
+
 .content {
   &-1 {
-    background-color: antiquewhite;
+    background-color: #f6f5f0;
   }
 
   &-2 {
-    background-color: azure;
+    background-color: #e2b8e0;
   }
 
   // background-color: aquamarine;
@@ -23,7 +27,7 @@ p {
 
   // background-color: antiquewhite;
 
-  // padding-top: 8rem;
+  // padding-top: 8rem;antiquewhite
   // padding-bottom: 8rem;
   margin-inline: auto;
 }
@@ -41,6 +45,10 @@ p {
   }
 }
 
+.about-btn {
+  background-color: #f8ea65;
+}
+
 .about-txt {
   // padding: 1rem;
 }
@@ -51,11 +59,12 @@ p {
 
     &--ko {
       font-size: 3rem;
-      font-weight: 700;
+      font-weight: 300;
+      letter-spacing: 1.5px;
     }
 
     &--en {
-      font-size: 2rem;
+      font-size: 2.25rem;
     }
   }
 
@@ -66,10 +75,10 @@ p {
 
   &-btn {
     padding-block: 0.5rem;
-    padding-inline: 12px;
+    padding-inline: 24px;
     font-size: 1.5rem;
     border: 1px solid black;
-    border-radius: 12px;
+    border-radius: 99px;
   }
 }
 
@@ -86,7 +95,7 @@ p {
 
 .exp {
   &-title {
-    padding-bottom: 2.5rem;
+    padding-bottom: 4rem;
     font-size: 5rem;
     font-weight: 700;
   }
@@ -103,7 +112,9 @@ p {
 
 .section {
   &-date {
+    padding-left: 0.5rem;
     font-size: 1.5rem;
+    font-weight: 400;
   }
 
   &-act {
@@ -111,6 +122,10 @@ p {
 }
 
 // exp 텍스트 관련
+.exp {
+  color: #121115;
+}
+
 .title {
   padding-bottom: 0.75rem;
   margin-top: -1.25rem;
@@ -120,5 +135,9 @@ p {
 
 .sub {
   padding-left: 0.625rem;
-  font-size: 24px;
+  font-size: 28px;
+}
+
+.footer {
+  background-color: #e2b8e0;
 }

@@ -15,12 +15,23 @@ body {
   font-weight: 400;
   src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff") format("woff");
 }
+@font-face {
+  font-family: MoveSans-Bold;
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2405-2@1.0/MoveSans-Bold.woff2") format("woff2");
+}
 .font-ko {
   font-family: Pretendard;
 }
 
 .font-en {
   font-family: Montserrat, sans-serif;
+}
+
+.font-en-title {
+  font-family: MoveSans-Bold;
+  font-weight: 300;
 }
 
 /* ol, li, a, h1 태그기본 속성 제거 */
@@ -69,7 +80,7 @@ h1 {
 }
 
 .footer .copyright {
-  padding-block: 5rem;
+  padding-block: 5rem 4rem;
   font-size: 12px;
   text-align: center;
 }

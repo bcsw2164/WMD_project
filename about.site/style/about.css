@@ -2,11 +2,15 @@ p {
   margin: 0;
 }
 
+.header {
+  background-color: #f6f5f0;
+}
+
 .content-1 {
-  background-color: antiquewhite;
+  background-color: #f6f5f0;
 }
 .content-2 {
-  background-color: azure;
+  background-color: #e2b8e0;
 }
 
 .content-about {
@@ -25,15 +29,20 @@ p {
   gap: 1.5rem;
 }
 
+.about-btn {
+  background-color: #f8ea65;
+}
+
 .about-name {
   padding-bottom: 1rem;
 }
 .about-name--ko {
   font-size: 3rem;
-  font-weight: 700;
+  font-weight: 300;
+  letter-spacing: 1.5px;
 }
 .about-name--en {
-  font-size: 2rem;
+  font-size: 2.25rem;
 }
 .about-birth {
   padding-bottom: 1.5rem;
@@ -41,10 +50,10 @@ p {
 }
 .about-btn {
   padding-block: 0.5rem;
-  padding-inline: 12px;
+  padding-inline: 24px;
   font-size: 1.5rem;
   border: 1px solid black;
-  border-radius: 12px;
+  border-radius: 99px;
 }
 
 .content-exp {
@@ -55,7 +64,7 @@ p {
 }
 
 .exp-title {
-  padding-bottom: 2.5rem;
+  padding-bottom: 4rem;
   font-size: 5rem;
   font-weight: 700;
 }
@@ -66,8 +75,14 @@ p {
 }
 
 .section-date {
+  padding-left: 0.5rem;
   font-size: 1.5rem;
+  font-weight: 400;
 }
+.exp {
+  color: #121115;
+}
+
 .title {
   padding-bottom: 0.75rem;
   margin-top: -1.25rem;
@@ -77,5 +92,9 @@ p {
 
 .sub {
   padding-left: 0.625rem;
-  font-size: 24px;
+  font-size: 28px;
+}
+
+.footer {
+  background-color: #e2b8e0;
 }
