@@ -1,4 +1,8 @@
 // container 시작
+body {
+  overflow-x: hidden;
+}
+
 p {
   margin: 0;
 }
@@ -134,6 +138,42 @@ p {
       gap: 4rem;
       padding-bottom: 8rem;
     }
+  }
+}
+
+.scroll-1 {
+  position: relative;
+  left: 0;
+  animation: slide 0.5s ease-out;
+}
+
+.scroll-2 {
+  position: relative;
+  left: 0;
+  animation: slide 0.5s ease-out;
+}
+
+@keyframes slide {
+  from {
+    left: 10rem;
+    opacity: 0;
+  }
+
+  to {
+    left: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes disappear {
+  from {
+    left: 0;
+    opacity: 1;
+  }
+
+  to {
+    left: 10rem;
+    opacity: 0;
   }
 }
 
