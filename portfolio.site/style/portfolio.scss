@@ -135,4 +135,174 @@ img {
   text-align: center;
 }
 
+// 애니메이션관련설정
+// ++ 모션카드
+.motion-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.motion-card::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: block;
+  width: 100%;
+  height: 100%;
+  content: '';
+  background-color: #f8ea65;
+  border-radius: 0.75rem;
+  opacity: 0;
+  transition: all 0.35s;
+}
+
+a:hover .motion-card::after {
+  opacity: 1;
+}
+
+.motion-card > .top {
+  position: absolute;
+  bottom: -80%;
+  left: 30px;
+  z-index: 2;
+  font-family: pretendard;
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #121115;
+  transition: all 0.35s;
+}
+
+.motion-card > .bottom {
+  position: absolute;
+  top: 150%;
+  left: 30px;
+  z-index: 2;
+  font-family: pretendard;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #121115;
+  transition: all 0.35s;
+}
+
+.motion-card:hover .top {
+  bottom: 49%;
+}
+
+.motion-card:hover .bottom {
+  top: 52%;
+}
+
+// 타이포 카드
+.typo-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.typo-card::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: block;
+  width: 100%;
+  height: 100%;
+  content: '';
+  background-color: #f6f5f0;
+  opacity: 0;
+  transition: all 0.35s;
+}
+
+a:hover .typo-card::after {
+  opacity: 1;
+}
+
+.typo-card > .top-typo {
+  position: absolute;
+  bottom: -80%;
+  left: 45px;
+  z-index: 2;
+  font-family: pretendard;
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #121115;
+  transition: all 0.35s;
+}
+
+.typo-card > .bottom-typo {
+  position: absolute;
+  top: 150%;
+  left: 45px;
+  z-index: 2;
+  font-family: pretendard;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #121115;
+  transition: all 0.35s;
+}
+
+.typo-card:hover .top-typo {
+  bottom: 49%;
+}
+
+.typo-card:hover .bottom-typo {
+  top: 52%;
+}
+
+// 그래픽 카드
+.graphic-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.graphic-card::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: block;
+  width: 100%;
+  height: 100%;
+  content: '';
+  background-color: #e2b8e0;
+  opacity: 0;
+  transition: all 0.35s;
+}
+
+a:hover .graphic-card::after {
+  opacity: 1;
+}
+
+.graphic-card > .top-graphic {
+  position: absolute;
+  bottom: -80%;
+  left: 45px;
+  z-index: 2;
+  font-family: pretendard;
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #121115;
+  transition: all 0.35s;
+}
+
+.graphic-card > .bottom-graphic {
+  position: absolute;
+  top: 150%;
+  left: 45px;
+  z-index: 2;
+  font-family: pretendard;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #121115;
+  transition: all 0.35s;
+}
+
+.graphic-card:hover .top-graphic {
+  bottom: 49%;
+}
+
+.graphic-card:hover .bottom-graphic {
+  top: 52%;
+}
+
 // 편집 끝
