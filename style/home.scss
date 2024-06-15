@@ -1,4 +1,26 @@
+body {
+  // overflow: hidden;
+  background-color: #121115;
+}
+
+.header {
+  background-color: #121115;
+}
+
+.portfolio-header {
+  color: #e2b8e0;
+  border-color: #e2b8e0;
+}
+
 .container {
-  max-height: 100vh;
-  background-color: burlywood;
+  background-color: #121115;
+}
+
+#home-lottie {
+  max-width: 50rem;
+  margin-inline: auto;
+}
+
+.lottie {
+  // width: 100%;
 }

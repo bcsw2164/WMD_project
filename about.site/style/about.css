@@ -2,19 +2,24 @@ p {
   margin: 0;
 }
 
+.portfolio-header {
+  color: #e2b8e0;
+  border-color: #e2b8e0;
+}
+
 .header {
-  background-color: #f6f5f0;
+  background-color: #121115;
 }
 
 .content-1 {
-  background-color: #f6f5f0;
+  background-color: #121115;
 }
 .content-2 {
   background-color: #e2b8e0;
 }
 
 .content-about {
-  max-width: 60rem;
+  max-width: 80rem;
   padding-block: 20rem;
   margin-inline: auto;
 }
@@ -29,16 +34,23 @@ p {
   gap: 1.5rem;
 }
 
-.about-btn {
-  background-color: #f8ea65;
+.about-txt {
+  margin-block: auto;
 }
 
+#about-lottie {
+  max-width: 30rem;
+}
+
+.about-txt {
+  color: #e2b8e0;
+}
 .about-name {
   padding-bottom: 1rem;
 }
 .about-name--ko {
   font-size: 3rem;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 1.5px;
 }
 .about-name--en {
@@ -49,11 +61,27 @@ p {
   font-size: 2rem;
 }
 .about-btn {
+  position: relative;
   padding-block: 0.5rem;
   padding-inline: 24px;
+  overflow: hidden;
   font-size: 1.5rem;
-  border: 1px solid black;
+  color: #e2b8e0;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #e2b8e0;
   border-radius: 99px;
+  transition: all 0.3s;
+}
+
+.about-btn:focus {
+  outline: none;
+}
+
+.about-btn:hover {
+  color: #121115;
+  background-color: #f8ea65;
+  border: 1px solid #f8ea65;
 }
 
 .content-exp {

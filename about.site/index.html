@@ -15,13 +15,18 @@
       href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+      type="module"
+    ></script>
+
     <title>About ME ― yoomov</title>
   </head>
   <body>
     <div class="wrap">
       <div class="header">
         <div class="nav">
-          <ol class="nav_bar font-en">
+          <ol class="nav_bar font-en portfolio-header">
             <div class="nav_bar-list">
               <li><a href="../index.html">HOME</a></li>
             </div>
@@ -33,7 +38,7 @@
               >
             </div>
             <div class="nav_bar-list">
-              <li><a href="./index.html">ABOUT</a></li>
+              <li class="selected-work"><a href="./index.html">ABOUT</a></li>
             </div>
           </ol>
         </div>
@@ -43,10 +48,14 @@
           <div class="content-about">
             <div class="flex-about">
               <div class="about-img">
-                <img
-                  src="./asset/91588b3d042df901d9b941ccbb57af4f151401c7.png"
-                  alt=""
-                />
+                <dotlottie-player
+                  id="about-lottie"
+                  src="https://lottie.host/62bb0572-caca-44f0-be84-7b97076ecff5/e2RXDMvOYZ.json"
+                  background="transparent"
+                  speed="1"
+                  loop
+                  autoplay
+                ></dotlottie-player>
               </div>
               <div class="about-txt">
                 <div class="about-name">
@@ -55,8 +64,17 @@
                 </div>
                 <div class="about-birth font-en"><p>2003.06.09</p></div>
                 <div class="flex-btn">
-                  <div class="about-btn font-en"><p>cptmxh03@naver.com</p></div>
-                  <div class="about-btn font-en"><p>@yoomov</p></div>
+                  <button
+                    class="about-btn font-en"
+                    onclick="window.location.href='mailto:cptmxh03@naver.com';"
+                  >
+                    <p>cptmxh03@naver.com</p>
+                  </button>
+                  <button class="about-btn font-en">
+                    <a href="https://www.instagram.com/yoomov/" target="_blank"
+                      >@yoomov</a
+                    >
+                  </button>
                 </div>
               </div>
             </div>

@@ -79,6 +79,22 @@ h1 {
   padding-inline: 2.25rem;
 }
 
+.nav_bar-list:hover {
+  color: #f8ea65;
+}
+
+.selected-home {
+  color: #f8ea65;
+}
+
+.selected-work {
+  color: #f8ea65;
+}
+
+.selected-about {
+  color: #f8ea65;
+}
+
 .footer .copyright {
   padding-block: 5rem 4rem;
   font-size: 12px;
