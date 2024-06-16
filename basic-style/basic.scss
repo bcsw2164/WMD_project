@@ -12,8 +12,8 @@ body {
   cursor: url('../basic-home.asset/cursor-2.svg') 20 10, auto;
 }
 
-a:hover {
-  cursor: url('/basic-home.asset/cursor-1.svg') 20 10, auto;
+a {
+  cursor: url('/basic-home.asset/cursor-1.svg') 20 10, pointer;
 }
 
 // 폰트관련
