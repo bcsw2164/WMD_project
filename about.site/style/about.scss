@@ -95,12 +95,15 @@ p {
     overflow: hidden;
     font-size: 1.5rem;
     color: #e2b8e0;
-    cursor: url('../../basic-home.asset/cursor-1.svg') 20 10, auto;
     background-color: transparent;
     border: 1px solid #e2b8e0;
     border-radius: 99px;
     transition: all 0.3s;
   }
+}
+
+button {
+  cursor: url('../../basic-home.asset/cursor-1.svg') 20 10, pointer;
 }
 
 .about-btn:focus {
