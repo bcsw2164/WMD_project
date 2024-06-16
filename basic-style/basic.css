@@ -14,10 +14,6 @@ a {
   cursor: url("../basic-home.asset/cursor-1.svg") 20 10, pointer;
 }
 
-button {
-  cursor: url("../basic-home.asset/cursor-1.svg") 20 10, pointer;
-}
-
 @font-face {
   font-family: Pretendard-Regular;
   font-style: normal;
