@@ -2,6 +2,10 @@
 // .wrap {
 //   background-color: #121115;
 // }
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
 
 body {
   // overflow-x: hidden;
@@ -307,6 +311,27 @@ a:hover .graphic-card::after {
 
 .graphic-card:hover .bottom-graphic {
   top: 52%;
+}
+
+.go_top {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  align-items: center;
+  max-width: 3.5rem;
+  padding: 0.5rem;
+  background-color: #e2b8e0;
+  border-radius: 9999px;
+  transition: all 0.25s;
+}
+
+.go_top:hover {
+  background-color: #f8ea65;
+}
+
+::selection {
+  color: #f8ea65; /* 텍스트 색상 */
+  background-color: none; /* 배경색 */
 }
 
 // 편집 끝

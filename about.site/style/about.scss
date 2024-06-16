@@ -32,7 +32,7 @@ p {
   max-width: 80rem;
 
   // padding-inline: 5rem;
-  padding-block: 20rem;
+  padding-block: 10rem 10rem;
 
   // background-color: antiquewhite;
 
@@ -95,7 +95,7 @@ p {
     overflow: hidden;
     font-size: 1.5rem;
     color: #e2b8e0;
-    cursor: pointer;
+    cursor: url('/basic-home.asset/cursor-1.svg') 20 10, auto;
     background-color: transparent;
     border: 1px solid #e2b8e0;
     border-radius: 99px;
@@ -207,4 +207,9 @@ p {
 
 .footer {
   background-color: #e2b8e0;
+}
+
+::selection {
+  color: #f8ea65; /* 텍스트 색상 */
+  background-color: none; /* 배경색 */
 }

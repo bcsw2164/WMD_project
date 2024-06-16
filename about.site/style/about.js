@@ -5,13 +5,13 @@ window.addEventListener('scroll', function () {
   let value = window.scrollY;
   console.log('scrollY', value);
 
-  if (value > 850) {
+  if (value > 500) {
     scrollElement1.style.animation = 'slide 1s ease-out forwards';
   } else {
     scrollElement1.style.animation = 'disappear 1s ease-out forwards';
   }
 
-  if (value > 1100) {
+  if (value > 700) {
     scrollElement2.style.animation = 'slide 1s ease-out forwards';
   } else {
     scrollElement2.style.animation = 'disappear 1s ease-out forwards';

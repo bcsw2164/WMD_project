@@ -7,6 +7,11 @@ body {
   margin: 0;
   font-size: 1.125rem;
   line-height: 1.5;
+  cursor: url("../basic-home.asset/cursor-2.svg") 20 10, auto;
+}
+
+a {
+  cursor: url("/basic-home.asset/cursor-1.svg") 20 10, auto;
 }
 
 @font-face {
@@ -64,7 +69,6 @@ h1 {
   max-width: -moz-fit-content;
   max-width: fit-content;
   padding-block: 2rem 4rem;
-  padding-inline: 2rem;
   margin-inline: auto;
 }
 .nav .nav_bar {

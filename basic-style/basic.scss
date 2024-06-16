@@ -9,6 +9,11 @@ body {
   margin: 0;
   font-size: 1.125rem;
   line-height: 1.5;
+  cursor: url('../basic-home.asset/cursor-2.svg') 20 10, auto;
+}
+
+a {
+  cursor: url('/basic-home.asset/cursor-1.svg') 20 10, auto;
 }
 
 // 폰트관련
@@ -76,17 +81,14 @@ h1 {
 .nav {
   max-width: fit-content;
   padding-block: 2rem 4rem;
-  padding-inline: 2rem;
+
+  // padding-inline: 2rem;
   margin-inline: auto;
 
   .nav_bar {
     display: flex;
-
-    // gap: 1.25rem;
     justify-content: center;
     padding-inline: 2rem;
-
-    // background-color: bisque;
 
     // border스타일
     border: solid 1px;

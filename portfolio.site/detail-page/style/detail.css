@@ -1,3 +1,4 @@
+@charset "UTF-8";
 p {
   margin: 0;
 }
@@ -28,7 +29,7 @@ p {
 .main-title {
   padding-bottom: 4rem;
   font-size: 3rem;
-  font-weight: 600;
+  font-weight: 500;
   text-align: center;
 }
 .main-pf {
@@ -120,6 +121,10 @@ img {
   min-width: 0;
 }
 
+.prev-page > a:hover {
+  color: #e2b8e0;
+}
+
 .next-page {
   display: flex;
   flex: 1;
@@ -128,6 +133,20 @@ img {
   min-width: 0;
 }
 
+.next-page > a:hover {
+  color: #e2b8e0;
+}
+
 .icon {
   max-width: 5rem;
+}
+
+::-moz-selection {
+  color: #121115; /* 텍스트 색상 */
+  background-color: #e2b8e0; /* 배경색 */
+}
+
+::selection {
+  color: #121115; /* 텍스트 색상 */
+  background-color: #e2b8e0; /* 배경색 */
 }
