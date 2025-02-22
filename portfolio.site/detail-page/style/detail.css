@@ -35,6 +35,11 @@ p {
   margin-inline: auto;
 }
 
+.content-discript-2 {
+  max-width: 75rem;
+  margin-inline: auto;
+}
+
 .main-title {
   padding-bottom: 4rem;
   font-size: 3rem;
@@ -68,6 +73,13 @@ p {
 .main-detailBox {
   padding-block: 0 3rem;
   padding-inline: 2rem;
+  text-align: center;
+}
+.main-detailLink {
+  padding-bottom: 3rem;
+  margin-inline: auto;
+  font-size: 24px;
+  color: #e2b8e0;
   text-align: center;
 }
 
@@ -109,6 +121,10 @@ img {
 }
 
 #elsword {
+  aspect-ratio: 560/315;
+}
+
+#habits-interactive {
   aspect-ratio: 560/315;
 }
 
