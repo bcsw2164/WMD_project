@@ -77,6 +77,13 @@ p {
     margin-inline: auto;
   }
 
+  &-imgGraphic2 {
+    max-width: 60rem;
+
+    //padding-bottom: 2rem;
+    margin-inline: auto;
+  }
+
   &-desc {
     display: flex;
     justify-content: space-between;

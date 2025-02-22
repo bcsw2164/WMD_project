@@ -63,6 +63,10 @@ p {
   padding-bottom: 2rem;
   margin-inline: auto;
 }
+.main-imgGraphic2 {
+  max-width: 60rem;
+  margin-inline: auto;
+}
 .main-desc {
   display: flex;
   justify-content: space-between;
