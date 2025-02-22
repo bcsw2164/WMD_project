@@ -100,6 +100,13 @@ img {
   gap: 2rem;
 }
 
+#mnn_gird-2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 1rem;
+  padding-top: 1rem;
+}
+
 #zb1 {
   aspect-ratio: 560/315;
 }
